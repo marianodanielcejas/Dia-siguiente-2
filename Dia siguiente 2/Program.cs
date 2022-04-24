@@ -88,6 +88,7 @@ namespace Dia_siguiente_2
                         {
                             Console.WriteLine("El mes ingresado no tiene mas de 31 dias/No tiene valores menores a 0.");
                         }
+                        mes = 0;
                     }
 
                     if (mes == 4 || mes == 6 || mes == 9 || mes == 11)
